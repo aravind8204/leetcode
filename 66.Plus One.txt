@@ -1,0 +1,12 @@
+//Question Number : 66
+//Question Name : Plus One
+//Link : https://leetcode.com/problems/plus-one/
+
+st=""
+for i in digits:
+    st+=str(i)
+o=str(int(st)+1)
+ar=[]
+for i in o:
+    ar.append(int(i))
+return ar
